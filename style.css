@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Verdana, Tahoma, Trebuchet MS;
+}
+ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 30vw;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 10px 200px 10px 200px;
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f9faf8;
+}
