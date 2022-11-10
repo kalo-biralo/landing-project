@@ -40,11 +40,33 @@ ul {
     width: 30vw;
 }
 
-.info-container {
+.info-container, .quote-container {
+    padding: 50px 350px 50px 350px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px 350px 20px 350px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+.info-container {
+    padding-top: 0px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.sayer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-weight: 700;
 }
 
 .members {
@@ -72,6 +94,7 @@ h2 {
     font-size: 36px;
     font-weight: 1000;
     color: #1f2937;
+    margin: 50px;
 }
 
 p {
