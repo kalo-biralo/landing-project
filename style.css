@@ -12,9 +12,19 @@ ul {
     width: 25vw;
 }
 
-.header, .main-title {                      /*padding will be same for the footer later with different bg color*/
-    padding: 10px 200px 10px 200px;
+.header, .main-title, .footer-container {                      /*padding will be same for the footer later with different bg color*/
+    padding: 10px 200px 70px 200px;
 }
+
+.footer-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main-title {
+    padding-bottom: 80px;
+}
+
 
 .header,
 .main-title {
@@ -23,6 +33,7 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 0px;
 }
 
 .header-logo {
@@ -34,6 +45,7 @@ ul {
 .main-title {
     display: flex;
     justify-content: space-between;
+    margin: 0px;
 }
 
 .title {
@@ -83,6 +95,19 @@ ul {
     height: auto;
 }
 
+.footer{
+    padding: 45px 0px 30px 0px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.footer button {
+    border-color: white;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 1000;
@@ -97,6 +122,13 @@ h2 {
     margin: 50px;
 }
 
+h3 {
+    color: white;
+    margin: 0;
+    font-size: 23px;
+    font-weight: 800;
+}
+
 p {
     margin: 5px 0px 15px 0px;
     color: #e5e7eb;
@@ -107,7 +139,7 @@ button {
     border-radius: 10px;
     background-color: #3882f6;
     color: white;
-    width: 100px;
+    width: 120px;
     padding: 5px;
 }
 
